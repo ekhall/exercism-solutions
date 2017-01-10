@@ -7,6 +7,8 @@
   (replace items #"G|C|T|A" {"G" "C" "C" "G" "T" "A" "A" "U"}))
 
 
+(to-rna "ACAX")
+
 ;; Write a program that, given a DNA strand, returns its RNA complement
 ;; (per RNA transcription).
 
